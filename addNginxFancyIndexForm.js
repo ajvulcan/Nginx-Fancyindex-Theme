@@ -30,3 +30,10 @@ input.addEventListener('keyup', function () {
   	    item.hidden = true;
     });
 });
+
+//Traducción
+$("a:contains('File Name')").html("Nombre fichero");
+$("a:contains('File Size')").html("Tamaño");
+$("a:contains('Date')").html("Fecha");
+$("a:contains('Parent directory/')").html(".. /");
+
